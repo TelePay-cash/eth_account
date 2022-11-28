@@ -63,10 +63,11 @@ setup(
         ]
     },
     install_requires=[
+        "eth-typing==2.3.0",
         "bitarray>=2.4.0,<3",
         "eth-abi>=3.0.0,<4",
-        "eth-keyfile>=0.6.0,<0.7.0",
-        "eth-keys>=0.4.0,<0.5",
+        "eth-keyfile>=0.6.0,<=0.7.0",
+        "eth-keys>=0.4.0,<0.7.0",
         "eth-rlp>=0.3.0,<1",
         "eth-utils>=2.0.0,<3",
         "hexbytes>=0.1.0,<1",
